@@ -1,0 +1,9 @@
+#!/bin/sh
+shareLib: 3LabCTest.o lib3LabC.o 3LabC.o
+    gcc -o shareLib 3LabCTest.c -L. -l3LabC -lm
+3LabCTest.o: 3LabCTest.c
+    gcc -c 3LabCTest.c -o 3LabCTest.o
+lib3LabC.o: 3LabC.c
+    gcc -shared -o lib3LabC.so 3LabC.o
+3LabC.o: 3LabC.c
+    gcc -c 3LabC.c -o 3LabC.o

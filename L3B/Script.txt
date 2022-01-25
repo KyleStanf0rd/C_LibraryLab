@@ -1,0 +1,7 @@
+#!/bin/sh
+gcc -c 3LabC.c -o 3LabC.o
+ar -cr lib3LabC.a 3LabC.o
+gcc -c 3LabCTest.c -o 3LabCTest.o
+gcc -o testLib 3LabCTest.o -L. -l3LabC -lm
+
+                                     

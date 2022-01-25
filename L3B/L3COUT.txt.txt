@@ -1,0 +1,43 @@
+kyle@ubuntu:~/Lab3Dir$ ./testLib
+Please enter the radius of the sphere in Centimeters : 17.583
+The surface area computed is : 3885.042969
+The volume computed is : 22770.238281
+
+Enter the radius for the cylinder : 13.35
+
+Enter the height for the cylinder : 3.71
+
+
+The volume of the cylinder is : 2077.238281 cm.
+Please enter the size of your array : 8
+Enter your number : .3476789
+Enter your number : 9100400.8
+Enter your number : .0000099
+Enter your number : 1.343567
+Enter your number : 78.34567
+Enter your number : 781678.567
+Enter your number : 997999.6
+Enter your number : .0000009
+[0.347679 , 9100401.000000 , 0.000010 , 1.343567 , 78.345673 , 781678.562500 , 997999.625000 , 0.000001]
+The sum of the unsorted array : 10880159.000000
+
+
+[0.000001 , 0.000010 , 0.347679 , 1.343567 , 78.345673 , 781678.562500 , 997999.625000 , 9100401.000000]
+The sum of sorted array : 10880159.000000
+
+How many angles would you like to compute using the 'sin' function : 
+3
+
+
+Enter the degree you would like to compute : 45
+
+Sin(45.000000) = 0.707107
+
+Enter the degree you would like to compute : 36
+
+Sin(36.000000) = 0.587785
+
+Enter the degree you would like to compute : 0.345
+
+Sin(0.345000) = 0.006021
+
